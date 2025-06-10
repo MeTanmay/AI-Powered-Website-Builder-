@@ -25,11 +25,13 @@ function Header() {
     })
   }
 
+  
+
 
   return (
-    <div className='p-4 flex justify-between items-center border-b'>
+    <div className='p-2 flex justify-between items-center border-b'>
         <Link  href ={'/'}>
-        <Image src={'/logo.png'} alt="Logo" width={40} height={40} />
+        <Image src={'/logo.png'} alt="Logo" width={70} height={70}  className='ml-5'/>
         </Link>
         
         {!userDetail?.name ? <div className='flex gap-5'>
