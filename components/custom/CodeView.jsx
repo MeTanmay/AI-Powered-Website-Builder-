@@ -36,9 +36,9 @@ function CodeView() {
     id && GetFiles();
   }, [id]);
 
-  useEffect(()=>{
-    setActiveTab('preview');
-  },action);
+  // useEffect(()=>{
+  //   setActiveTab('preview');
+  // },action);
 
   const GetFiles = async () => {
     setLoading(true);
